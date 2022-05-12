@@ -417,6 +417,22 @@
   .main_contact--right {
     height: unset !important;
   }
+  #title_done{
+    font-size: 4rem !important;
+    line-height: 2rem !important;
+  }
+  #title_have--done{
+    font-size: 4rem !important;
+    line-height: 7rem !important;
+  }
+  /* #text_havedone--item{
+    font-size: 16px !important;
+    line-height: 2rem !important;
+  } */
+  .title_main-markets{
+    font-size: 3rem !important;
+    line-height: 9rem !important;
+  }
 
   .main_contact--heading {
     font-size: 2rem !important;
