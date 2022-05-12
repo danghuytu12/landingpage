@@ -243,7 +243,7 @@
   }
 
   .header__welcome--box {
-    padding-top: 178px;
+    padding-top: 120px;
   }
 }
 
@@ -360,6 +360,7 @@
   .header_img--box {
     position: relative;
     order: 2;
+    padding-top: 30px;
   }
 
   #header_firstpage--content {
@@ -434,6 +435,13 @@
   #title_have--done{
     font-size: 4rem !important;
     line-height: 7rem !important;
+  }
+  .have_done--img{
+    max-width: 100px;
+  }
+  .text_have_done--item{
+    font-size: 12px;
+    line-height: 20px;
   }
   /* #text_havedone--item{
     font-size: 16px !important;
