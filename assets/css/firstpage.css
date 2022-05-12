@@ -1,5 +1,5 @@
 .header_firstpage--bg {
-  height: 706px;
+  height: unset;
   color: var(--white);
   position: relative;
   z-index: 2;
@@ -63,7 +63,7 @@
 .main_contact {
   position: relative;
   height: unset;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .main_contact::before {
@@ -118,8 +118,8 @@
 .main_contact--subtext {
   font-size: 4rem;
   line-height: 4.8rem;
-  color: var(--white);
-  font-weight: 700;
+  color: #7CC8FF;
+  font-weight: 400;
 }
 
 .main_contact--right {

@@ -53,7 +53,7 @@ ul.have_done--list{
   height: calc(100% - 118px);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: end;
 }
 #header_firstpage--content{
   font-size: 1.6rem;

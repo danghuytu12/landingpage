@@ -374,7 +374,17 @@
   }
 
   .header_firstpage--bg {
-    height: 639px !important;
+    min-height: 700px !important;
+  }
+  .main_product--heading{
+    font-size: 3rem !important;
+    line-height: 4rem !important;
+    padding-top: 10px !important;
+  }
+  #main_product--subtext{
+    font-size: 1.6rem !important;
+    line-height: 2.5rem !important;
+    padding-top: 10px !important;
   }
 
   .title_header--threepage--heading {
@@ -441,7 +451,7 @@
 
   .main_contact--subtext {
     font-size: 2rem !important;
-    line-height: 2rem !important;
+    line-height: 6rem !important;
   }
 }
 
