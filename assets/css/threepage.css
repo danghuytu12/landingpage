@@ -20,7 +20,7 @@ ul.have_done--list{
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
+  text-align: end;
 }
 .title_header--threepage--heading{
   font-weight: 59px;

@@ -240,6 +240,7 @@
 
   .header_qa--img {
     width: 100%;
+    margin-top: 50px;
   }
 
   .header__welcome--box {
@@ -251,6 +252,43 @@
   .main__ticket-desc-text:nth-of-type(3) {
     margin-top: 16px;
     transform: translateX(calc(var(--ticket-ml) * -1));
+  }
+
+  .header_firstpage--bg {
+    min-width: 770px;
+  }
+
+  .header_firstpage--heading {
+    font-size: 35px !important;
+    line-height: 50px !important;
+  }
+
+  #header_firstpage--content {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* .title_img--markets{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: end;
+  } */
+
+  .owl_carousel--heading {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+  }
+
+  .have_done--img {
+    max-width: 100px;
+
+  }
+
+  .text_have_done--item {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
   }
 }
 
@@ -364,33 +402,62 @@
   }
 
   #header_firstpage--content {
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
     line-height: 1.4rem !important;
     text-align: left !important;
     justify-content: unset !important;
+  }
+
+  .header_infor--button--three {
+    font-size: 14px !important;
   }
 
   .header_firstpage--contact {
     text-align: left !important;
   }
 
+  .owl_carousel--heading {
+    font-size: 2rem !important;
+    font-weight: 700;
+  }
+
+  .main_product_three{
+    min-width: 335px !important;
+  }
+  .main_done{
+    min-width: 335px !important;
+  }
+
   .header_firstpage--bg {
     min-height: 700px !important;
+    min-width: 335px !important;
   }
-  .main_product--heading{
+
+  .main_product--heading {
     font-size: 3rem !important;
     line-height: 4rem !important;
     padding-top: 10px !important;
   }
-  #main_product--subtext{
+
+  #main_product--subtext {
     font-size: 1.6rem !important;
     line-height: 2.5rem !important;
     padding-top: 10px !important;
   }
 
+  .text_offer {
+    font-size: 1.6rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  .image_tso {
+    max-width: 200px;
+  }
+
+
   .title_header--threepage--heading {
-    font-size: 4.6rem !important;
-    line-height: 5rem !important;
+    font-size: 3rem !important;
+    line-height: 3rem !important;
     padding-top: 16px;
   }
 }
@@ -428,38 +495,63 @@
   .main_contact--right {
     height: unset !important;
   }
-  #title_done{
-    font-size: 4rem !important;
+
+  #title_done {
+    font-size: 24px !important;
     line-height: 2rem !important;
   }
-  #title_have--done{
-    font-size: 4rem !important;
-    line-height: 7rem !important;
+
+  #title_have--done {
+    font-size: 24px !important;
+    line-height: 3rem !important;
   }
-  .have_done--img{
+
+  .have_done--img {
     max-width: 100px;
   }
-  .text_have_done--item{
-    font-size: 12px;
+  .main_offer{
+    min-width: 335px !important;
+  }
+  .main_markets{
+    min-width: 335px !important;
+  }
+  .text_have_done--item {
+    font-size: 10px;
     line-height: 20px;
   }
+
   /* #text_havedone--item{
     font-size: 16px !important;
     line-height: 2rem !important;
   } */
-  .title_main-markets{
+  .title_main-markets {
     font-size: 3rem !important;
     line-height: 9rem !important;
   }
 
+  .title_offer {
+    font-size: 40px;
+  }
+
+  .logo_tso {
+    max-width: 100px;
+  }
+
+  .logo_continuous {
+    max-width: 150px;
+  }
+  .main_contact{
+    min-width: 335px !important;
+  }
+
   .main_contact--heading {
     font-size: 2rem !important;
-    line-height: 2rem !important;
+    line-height: 4rem !important;
   }
 
   .main_contact--subtext {
     font-size: 2rem !important;
-    line-height: 6rem !important;
+    /* line-height: 6rem !important; */
   }
 }
 
@@ -487,6 +579,28 @@
 }
 
 @media (max-width: 300px) {
+  .search-btn--s {
+    padding: 10px 20px;
+  }
+
+  .main__ticket-desc-text:nth-of-type(3).pr {
+    padding-right: 0px;
+  }
+
+  /* other css  */
+
+  .main__contact-form {
+    padding: 8px;
+  }
+
+  .main__contact-input,
+  .main__contact-txt-area {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 280px) {
   .search-btn--s {
     padding: 10px 20px;
   }
