@@ -41,12 +41,19 @@ ul.have_done--list{
   display: flex;
   justify-content: center;
 }
+
+.header__welcome--box {
+  display: flex;
+  align-items: center;
+}
+.header_qa--img {
+  max-width: 602px;
+}
 .header__welcome--three{
   height: calc(100% - 118px);
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding-top: 120px;
 }
 #header_firstpage--content{
   font-size: 1.6rem;
