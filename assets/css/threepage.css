@@ -13,6 +13,9 @@
   display: flex;
   justify-content: center;
 }
+ul.have_done--list{
+  padding-left: 15px;
+}
 .title_img--markets{
   font-weight: 700;
   font-size: 20px;
