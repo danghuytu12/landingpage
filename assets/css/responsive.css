@@ -82,7 +82,14 @@
   .grid.footer-box {
     max-width: 1842px;
   }
-
+  .header_firstpage--bg{
+    min-height: 710px;
+  }
+  .header__welcome--box{
+    display: flex;
+    padding-top: 70px;
+    align-items: center;
+  }
   .feed_back-grid {
     position: absolute;
     top: 50%;
