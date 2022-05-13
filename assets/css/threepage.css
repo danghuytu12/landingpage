@@ -10,8 +10,8 @@
 }
 .title_main-markets{
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 80px;
+  line-height: 96px;
   display: flex;
   justify-content: center;
 }
@@ -70,7 +70,7 @@ ul.have_done--list{
     
 }
 .header_infor--button--three{
-  width: 50%;
+  width: 48%;
     font-size: 2rem;
     color: var(--brand);
     font-weight: 700;
@@ -93,4 +93,7 @@ ul.have_done--list{
 }
 .have_done--img{
   object-fit: contain;
+}
+.btn_gotoTSO{
+  
 }

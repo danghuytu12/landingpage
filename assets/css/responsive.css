@@ -76,8 +76,9 @@
 
 @media (min-width: 1200px) {
   .grid {
-    max-width: 1140px;
+    max-width: 1300px;
   }
+
 
   .grid.footer-box {
     max-width: 1842px;
@@ -315,6 +316,12 @@
     flex-direction: column-reverse;
   }
 
+  .title_img--markets{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: end;
+  }
   .s-12 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -417,6 +424,9 @@
 
   .header_infor--button--three {
     font-size: 14px !important;
+    width: 48% !important;
+    height: 50px !important;
+    padding: 10px;
   }
 
   .header_firstpage--contact {
@@ -492,7 +502,12 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
-
+  .contact_form--infor{
+    font-size: 18px !important;
+  }
+  .contact_form--title{
+    font-size: 18px !important;
+  }
   .no-pt-48 {
     padding-top: 0;
   }

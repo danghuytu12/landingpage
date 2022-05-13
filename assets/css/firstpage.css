@@ -91,7 +91,7 @@
 }
 
 .contact_form--title {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 2rem;
   color: var(--white);
   font-weight: 700;
@@ -135,6 +135,7 @@
   border: 1px solid #ffffff;
   border-radius: 8px;
   padding: 25px;
+  max-width: 450px;
 }
 
 .contact_form--input {
