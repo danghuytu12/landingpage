@@ -1,0 +1,19 @@
+.markets_box {
+    position: relative;
+    height: 944px;
+}
+
+.markets_box--grid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.markets_heading {
+    text-align: center;
+    padding: 220px 0;
+}
+
+
+.markets_box--col {display: flex;justify-content: center;}
