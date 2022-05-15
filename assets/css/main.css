@@ -455,3 +455,13 @@ input[type=submit] {
   text-align: center;
   margin: 16px 0;
 }
+.footer_tso--go {
+  background: var(--brand);
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  padding: 6px 14px;
+  border-radius: 16px;
+  margin-right: 24px;
+}
